@@ -1,0 +1,21 @@
+import pandas as pd
+print("  Module1: Data Loading")
+df = pd.read_csv(r"C:\Users\DELL\OneDrive\Desktop\Student_data_Project\data\student_dataset_v2.csv")
+print(df.head())
+print(df.tail())
+print(df.shape)
+print(df.columns)
+print(df.dtypes)
+
+
+print("Module 2:  Data Inspection")
+print("Missing Values")
+print(df.isnull().sum())
+print("\n----- Duplicate Records -----")
+print("Number of Duplicate Rows:", df.duplicated().sum())
+print("\n----- Descriptive Statistics -----")
+print(df.describe())
+print("\n----- Memory Usage -----")
+print(df.memory_usage())
+print("\n----- Summary Information -----")
+df.info()
