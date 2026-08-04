@@ -169,7 +169,7 @@ pip install pandas
 
 **Name:** Chandransh
 
-**Project:** Student Data Project
+**Project:** Student Marks Prediction Based on Study Hours and Attendance
 
 **Language:** Python
 
