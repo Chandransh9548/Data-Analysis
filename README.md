@@ -1,4 +1,4 @@
-# Student Data Project
+# Student Marks Prediction Based on Study Hours and Attendance
 
 ## Project Overview
 
